@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCFFFFFF"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#88FF0404"
+        android:text="Разработчик: Андросюк Д.М."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Инструкция:\n1. Введите идентификатор журнала.\n2. Нажмите кнопку 'Скачать'."
+        android:textSize="18sp"
+        android:gravity="center" />
+
+    <CheckBox
+        android:id="@+id/dontShowAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Больше не показывать"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ОК"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

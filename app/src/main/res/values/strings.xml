@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Network App</string>
+    <string name="btn_network">Подключение к сети</string>
+    <string name="btn_socket">Сокеты</string>
+    <string name="btn_download">Скачать журнал</string>
+    <string name="btn_settings">Настройки</string>
+</resources>
